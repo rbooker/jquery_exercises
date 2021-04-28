@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="moviestyles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Movies: Hot or Not?</h1></header>
+    <form id="ratemovies">
+        <label for="title">Title</label>
+        <input type="text" id="title"><br><br>
+        <span>Is it:&nbsp;&nbsp; </span>
+        <label for="hot">Hot</label>
+        <input type="radio" id="hot" name="hotornot" value="hot" checked>
+        <label for="not">Not</label>
+        <input type="radio" id="not" name="hotornot" value="not"><br><br>
+        <input type="submit">
+
+    </form>
+
+    <table id="movielist"></table>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="mymovies.js"></script>  
+</body>
+</html>

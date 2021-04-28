@@ -1,0 +1,24 @@
+header {
+    background-color: red;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: -1em;
+    margin-left: -.5em;
+    padding-top: .5em;
+    padding-left: .4em;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    margin-top: 1em;
+}
+
+.remove{
+    background-color: red;
+    color: white;
+}
